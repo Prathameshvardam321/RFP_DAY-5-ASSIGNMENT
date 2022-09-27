@@ -1,6 +1,8 @@
+package com.bridgelabz;
+
 import java.util.Scanner;
 
-public class Distance {
+public class DistanceCalculation {
     static void calcDistance(int x,int y){
         double distance;
         double z =x*x+y*y;
@@ -12,9 +14,9 @@ public class Distance {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter value of x: ");
-       int x = s.nextInt();
+        int x = s.nextInt();
         System.out.println("Enter value of y: ");
-       int y = s.nextInt();
+        int y = s.nextInt();
         calcDistance(x,y);
     }
 }
