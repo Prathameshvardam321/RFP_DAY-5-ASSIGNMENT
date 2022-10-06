@@ -13,6 +13,7 @@ public class Factors {
                 for (int j=2;j<i;j++){
                     if (i%j==0){
                     count=1;
+                    break;    
 
                     }
                 else {
